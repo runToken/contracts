@@ -27,7 +27,7 @@ contract RUNToken is Context, IBEP20, Ownable {
     uint256 private _totalSupply;
 
     uint public constant DAILY_BURN = 3; // percentage
-    uint public constant DEX_BURNER = 10; // blocks
+    uint public constant DEX_BURNER = 28800; // blocks
     uint private constant _INITAL_SUPPLY = 100 * 10**6 * 10**18;
 
     constructor() public {
